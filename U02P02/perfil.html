@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de perfil</title>
+</head>
+
+<body>
+    <h1>Pagina de perfil</h1>
+
+    <form action="/accion.php">
+        <fieldset>
+            <h3>Datos personales:</h3>
+
+            <label for="rol">Rol:</label>
+            <input type="text" id="rol" name="rol" value="ESTUDIANTE">
+            
+            <br>
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre completo">
+
+            <br>
+
+            <label for="email">Ingrese email:</label>
+            <input type="text" id="email" name="email" required placeholder="Ingrese su email">
+
+            <br>
+
+            <label for="date">Ingrese su edad:</label>
+            <input type="date" name="date" id="date">
+
+            <br>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad">
+                <option value="argentina">Argentina</option>
+                <option value="chilena">Chilena</option>
+                <option value="colombiana">Colombiana</option>
+            </select>
+
+            <br>
+
+            <label for="seleccionable">Condición laboral</label>
+            <select name="seleccionable" id="seleccionable">
+                <option value="Desempleado">Desempleado</option>
+                <option value="En busqueda laboral">En busqueda laboral</option>
+                <option value="Trabajo part time">Trabajo part time</option>
+                <option value="Trabajo full time">Trabajo full time</option>
+            </select>
+
+            <hr>
+
+            <section>
+                <h3>Gustos personales:</h3>
+                <label for="gustos">Gustos Musicales:</label>
+                <input type="text" id="gustos" name="gustos">
+
+                <br>
+
+                <label for="comida">Comida Preferida:</label>
+                <select id="comida" name="comida">
+                    <option value="pizza">Pizza</option>
+                    <option value="hamburguesa">Hamburguesa</option>
+                    <option value="sushi">Sushi</option>
+                </select>
+
+                <br>
+
+                <input type="checkbox" id="recordar" name="recordar">
+                <label for="recordar">Recordar mis datos</label>
+
+                <br>
+
+                <input type="submit" value="Iniciar Sesión">
+            </section>
+        </fieldset>
+    </form>
+</body>
+
+</html>
