@@ -1,0 +1,63 @@
+/* Estilos generales */
+html{
+    background-color: rgb(245, 245, 245);
+}
+
+body, h1, h2, p, ul, li, a {
+    font-family: sans-serif;
+  }
+
+.tituloh1 {
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+}
+
+.tituloh2{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul > li{
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a{
+    font-weight: bold;
+    color: #242424;
+}
+
+ul > li > a{
+    color: orange;
+    text-decoration: underline;
+}
+
+ul{
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid rgb(48, 48, 236);
+    width: 40%;
+    list-style-type: none;
+}
+
+/*FALTA (item 10)*/
+.cambioColor{
+    color: green;
+}
+
+.cambioColor > a{
+    color: green;
+}
